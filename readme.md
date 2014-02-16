@@ -1,12 +1,17 @@
 WORM BRAIN
 
-Dev Setup Instructions (for thumb-drive):
+Dev Setup Instructions: 
 
-Open command prompt
-change directory to path on which thumb-drive is mounted
-Run following command:
+Open terminal
+Navigate to where you'd like to store the worm brain files, then
+Run following commands:
 
 > git clone https://github.com/mike-lang/Worm-Brain.git
 
 > vagrant up
+> vagrant ssh
 
+And you'll be connected to the VM containing the worm brain scripts.
+To execute:
+cd /vagrant
+python simulation.py
